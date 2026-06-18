@@ -1,287 +1,33 @@
+@media screen and (max-width:768px){
 
-@media screen and (max-width: 768px){
-    *{
-        box-sizing: border-box;
-
-    }
-
-    body{
-        overflow-x:hidden;
-    }
-    .container{
-        width:100%;
-        padding: 0 15px;
-    }
-
+    /* Home */
+    .container{ width:100%; }
     nav{
         display:flex;
         flex-wrap:wrap;
-        justify-content:Center;
-        gap: 10px;
-    }
-    
-
-
-    nav a{
-        font-size:14px;
-        padding:5px;
+        justify-content:center;
+        gap:10px;
     }
 
-    #home{
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        display:flex;
-        flex-direction:column;
-        text-align:center;
-        padding-top:80px;
-    }
-
-    .home-content,
-    .home-img{
-        width:100%;
-    }
-    .profile-img{
-        width: 150px;
-        height:150px;
-        max-width: 100%;
-        border-radius:50%;
-
-    }
-
-    h1{
-        font-size:28px;
-    }
-
-
-    @media screen and (max-width:768px){
-
+    /* About */
     .hire-container{
         flex-direction:column;
         align-items:center;
-        padding:20px;
     }
 
-    .card1,
-    .card2{
-        width:100%;
-        margin:10px 0;
-        padding:15px;
-        box-sizing:border-box;
-    }
-
-    .card1 img{
-        width:220px;
-        height:220px;
-        max-width:100%;
-        display:block;
-        margin:auto;
-        border-radius:50%;
-        object-fit:cover;
-    }
-
-    .card2 h1,
-    .card2 h2{
-        text-align:center;
-    }
-
-    .card2 p{
-        font-size:16px;
-        line-height:1.6;
-        text-align:left;
-    }
-
-    .logo{
-        width:100%;
-        text-align:center;
-        margin:20px 0;
-    }
-
-    .logo img{
-        width:80px;
-        height:80px;
-    }
-
-    nav{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
-    }
-
-    nav a{
-        font-size:14px;
-    }
-}
-    
-
-
-
-}
-
-/* Contact Page Responsive */
-
-@media screen and (max-width:768px){
-
+    /* Contact */
     .contact-container{
         width:95%;
-        padding:20px;
-        margin:20px auto;
     }
 
-    .contact-container h1{
-        font-size:28px;
-        text-align:center;
-    }
-
-    form{
-        width:100%;
-    }
-
-    input,
-    textarea{
-        width:100%;
-        padding:12px;
-        margin:10px 0;
-        font-size:16px;
-        box-sizing:border-box;
-    }
-
-    textarea{
-        height:120px;
-        resize:none;
-    }
-
-    button{
-        width:100%;
-        padding:12px;
-        font-size:16px;
-    }
-
-    nav{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
-    }
-
-    nav a{
-        font-size:14px;
-    }
-
-    .logo{
-        text-align:center;
-    }
-
-    .logo img{
-        width:80px;
-        height:80px;
-    }
-}
-
-@media screen and (max-width:768px){
-
-    .card1,
-    .card2{
-        width:100%;
-        margin:15px 0;
-        padding:15px;
-        box-sizing:border-box;
-    }
-
-    .card1 img,
-    .card2 img{
-        width:100%;
-        height:auto;
-        display:block;
-        margin:auto;
-        border-radius:10px;
-    }
-
-    .card1 h1,
-    .card2 h1,
-    .card1 h2,
-    .card2 h2{
-        text-align:center;
-    }
-
-    .card1 p,
-    .card2 p{
-        font-size:16px;
-        line-height:1.6;
-    }
-
+    /* Projects */
     .project-container{
-        display:flex;
         flex-direction:column;
-        align-items:center;
     }
 
-    nav{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
-    }
-
-    nav a{
-        font-size:14px;
-    }
-}
-
-@media screen and (max-width:768px){
-
+    /* Success */
     .success-card{
         width:90%;
         padding:25px 20px;
-        box-sizing:border-box;
-    }
-
-    .tick{
-        font-size:55px;
-    }
-
-    h1{
-        font-size:28px;
-    }
-
-    p{
-        font-size:16px;
-        line-height:1.6;
-    }
-
-    .btn{
-        display:block;
-        width:100%;
-        padding:12px;
-        margin-top:20px;
-        box-sizing:border-box;
     }
 }
-
-@media screen and (max-width:480px){
-
-    .success-card{
-        width:95%;
-        padding:20px 15px;
-    }
-
-    .tick{
-        font-size:45px;
-    }
-
-    h1{
-        font-size:22px;
-    }
-
-    p{
-        font-size:14px;
-    }
-
-    .btn{
-        font-size:14px;
-    }
-}
-
-
-    
