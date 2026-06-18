@@ -1,0 +1,101 @@
+<!DOVTYPE>
+<html>
+    <head>
+        <meta name = "viewport"
+        content="width=device-width",
+        intial-scale=1.0">
+
+        <link  rel = "stylesheet" href = "{{url_for('static',filename='contact.css')}}">
+        <link  rel = "stylesheet" href = "{{url_for('static',filename='responsive.css')}}">
+
+
+
+
+
+    </head>
+
+    <body>
+        <div class = "hire-container">
+            <div class = "card card1">
+            <img src = "static/my image.jpeg">
+
+
+
+            <h1>ANKIT RAJ</h1>
+            <h3>Full Stack Developer|Aspiring Machine Learning Engineer</h3>
+            <h4>ankitrajkushwaha456@gmail.com</h4>
+            <div class = "social-icons">
+                <a href = "https://www.linkedin.com/in/ankit-raj-133813323" target="_blank">
+                    <img src = "static/linkden.jfif">
+                </a>
+                
+
+                <a href = "mailto:ankitrajkushwaha456@gmail.com">
+                    <img src = "static/gmail.png">
+
+                </a>
+
+                <a href = "https://github.com/ankitrajkushwaha">
+
+                        <img src = "static/github.png">
+                </a>
+            </div>
+
+"
+
+            </div>
+            <div class = "card card2">
+                <h1>Hire Me</h1>
+                <p>Ready to elevate Your Project?Tell me about it!</p>
+                <form action = "/contact" method= "POST">
+                    <div class ="row">
+                        <div>
+                Full Name <br>
+                    <input type ="text" name = "Full_Name" required>
+                        </div>
+                <div>
+                Email Address <br> 
+                    <input type = "email" name = "email" required>
+                </div>
+            </div>
+                
+                <br></br>
+
+
+                <div class = "row">
+                    <div>
+                Subject <br>
+                    <input type = "text" name = "subject" required>
+                </div>
+                <div>
+                Project Type <br>
+                <select name = "Project_type"required>
+                    <option value = "UI/UX Design">UI/UX Design</option>
+                    <option value = "Web Development">Web Development</option>
+                    <option value = "ML Projects">ML Projects</option>
+                    <option value = "Other">Other</option>
+                </select>
+                </div>
+            </div>
+
+                <div class = "message-box">
+                <p>Message/Project Details</p> 
+                <textarea name = "message" row = "5" columns = "100"
+                placeholder = "Describe Your Projects,Timeline,Budget,goals"></textarea>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+                
+
+                <button>Submit Requist</button>
+            
+                </form>
+
+
+            </div>
+        </div>
+
+        
+    </body>
+</html>

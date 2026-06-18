@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport"
+        content="width=device-width",
+        intial-scale=1.0">
+        <link  rel = "stylesheet" href = "{{url_for('static',filename='responsive.css')}}">
+
+
+
+    <title>Success</title>
+
+
+
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#4facfe,#00f2fe);
+            font-family:Arial,sans-serif;
+        }
+
+        .success-card{
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 10px 30px rgba(0,0,0,0.2);
+            width:400px;
+        }
+
+        .tick{
+            font-size:70px;
+        }
+
+        h1{
+            color:#28a745;
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#555;
+            font-size:18px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#007bff;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+        }
+
+        .btn:hover{
+            background:#0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="success-card">
+
+    <div class="tick">✅</div>
+
+    <h1>Request Submitted!</h1>
+
+    <p>
+        Thank you for contacting me.<br>
+        Your project details have been received successfully.
+    </p>
+
+    <a href="/index" class="btn">
+        Back To Home
+    </a>
+
+</div>
+
+</body>
+</html>

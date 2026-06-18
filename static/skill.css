@@ -1,0 +1,77 @@
+.skills-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    padding:20px;
+    border:1px solid #ddd;
+    border-radius: 15px;
+    background: #fff;
+    color:white;
+}
+
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("web.jfif");
+    background-size: cover;
+
+
+
+
+}
+
+.card2{
+    background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("machine.jfif");
+    background-size: cover;
+}
+
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("tools.jfif");
+    background-size: cover;
+}
+
+@media(max-width:768px){
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("skills.png");
+    background-size:cover;
+}
+
+h1{
+    color:white;
+    margin: 0;
+}
+
+p{
+    color:white;
+}
+
+ul{
+    font-size: 20px;
+    margin:5px;
+}
+
+
+nav a{
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav{
+    display:flex;
+    gap:50px;
+    justify-content:right;
+    align-items: center;
+}
+nav a:hover{
+    color:blue;
+    border:#ddd;
+}
